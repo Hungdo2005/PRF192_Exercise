@@ -20,8 +20,9 @@ int check(int n){
 
 int main(){
 	int a, b;
+	int i; 
 	scanf("%d %d", &a, &b);
-	for(int i = a; i <= b; i++){
+	for(i = a; i <= b; i++){
 		if(check(i)){
 			printf("%d ", i);
 		}
