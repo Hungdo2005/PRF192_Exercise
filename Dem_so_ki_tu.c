@@ -15,7 +15,6 @@ int main(){
 			count3++;
 		}
 	}
-	c[strlen(c) - 1] = '\0';
 	printf("%d %d %d", count2, count1, count3);
 	return 0;
 }
